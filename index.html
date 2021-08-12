@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<center>
+  <head> 
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  
+      <p class=".line"><h1><center>PEDRA PAPEL E TESOURA</center></h1></p><br>
+
+    <h2><center><title> sua jogada (clique na imagem):</title></center></h2>
+    <center><img src="imgs/pedra.jpg.jpg"   alt="pedra"   onclick="play(1);" </center>
+    <img src="imgs/papel.jpg.jpg"   alt="papel"   onclick="play(2);">
+    <img src="imgs/tesoura.jpg.jpg" alt="tesoura" onclick="play(3);"></center>
+
+    <div id="resultados" class="hidden">
+      <p id="lastRound">ultima rodada</p>
+      <p id="score">placar</p><br>
+      <p id="lastRound"></p>
+    </div>
+  </body>
+</center>
+</html>

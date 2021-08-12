@@ -1,0 +1,14 @@
+img {
+  width: 100px;
+  height: 100px;
+}
+img:hover{
+  transform: scale(1.20);
+}
+.hidden{
+  display: none;
+}
+.show{
+  display: block;
+  color: rgb(0, 128, 58);
+}
